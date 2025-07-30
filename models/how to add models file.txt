@@ -1,0 +1,28 @@
+# How to Add the LLaMA 2 Model File
+
+## Step 1: Download the Model
+1. Visit: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
+2. Download the file: `llama-2-7b-chat.ggmlv3.q4_0.bin`
+   - This is approximately 3.8 GB in size
+   - Make sure you have enough disk space
+
+## Step 2: Place the Model File
+1. Place the downloaded `llama-2-7b-chat.ggmlv3.q4_0.bin` file directly in this `models/` folder
+2. The final path should be: `models/llama-2-7b-chat.ggmlv3.q4_0.bin`
+
+## Step 3: Verify Installation
+1. Run the Streamlit app: `streamlit run app.py`
+2. If the model loads successfully, you'll see the blog generator interface
+3. If there's an error, check that the file is in the correct location
+
+## Important Notes:
+- The model file is too large to be included in the repository
+- You must download it manually from the Hugging Face link above
+- The app will not work without this model file
+- Make sure the filename matches exactly: `llama-2-7b-chat.ggmlv3.q4_0.bin`
+
+## Alternative Models:
+If you want to use a different model, you can:
+1. Download a different GGML model from Hugging Face
+2. Update the `model_path` variable in `app.py` to point to your model file
+3. Ensure the model is compatible with ctransformers
