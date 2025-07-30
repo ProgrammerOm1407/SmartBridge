@@ -50,6 +50,8 @@ or
 ```bash
 python -m streamlit run app.py
 ```
+Video link
+https://drive.google.com/file/d/1FKHglz8dg34EOreB2PcDG4jtciTGJbIK/view?usp=sharing
 
 6. **Open your browser**
    - The app will automatically open at `http://localhost:8501`
